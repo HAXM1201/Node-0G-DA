@@ -16,12 +16,13 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 rustc --version
 cài đặt lib
-sudo apt-get update
+
+```sudo apt-get update
 sudo apt install libssl-dev
 sudo apt install pkg-config
 sudo apt-get install protobuf-compiler
 sudo apt-get install clang
-sudo apt-get install llvm llvm-dev
+sudo apt-get install llvm llvm-dev```
 xây dựng
 cd && cd 0g-da-node
 cargo build --release
