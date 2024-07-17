@@ -11,19 +11,19 @@ Băng thông	100 MBps để Tải xuống / Tải lên
 Cập nhật hệ thống
 
 ```sudo apt update && sudo apt upgrade -y```
-sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
+```sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y```
 
 Tải xuống Git
 
-git clone https://github.com/0glabs/0g-da-node.git
+```git clone https://github.com/0glabs/0g-da-node.git```
 
 Cài đặt Rust & Kiểm tra Phiên bản
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh```
 
-source $HOME/.cargo/env
+```source $HOME/.cargo/env```
 
-rustc --version
+```rustc --version```
 
 cài đặt lib
 
